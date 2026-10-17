@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
 import { AboveChart, AbyssChart } from './components/Charts'
 import { asset, AudioEvidencePlayer, ConfidenceBadge, LensPanel, media, SourceImage, SourceNote } from './components/Evidence'
-import { chapters, models, transmissions } from './data/content'
+import { chapters, transmissions } from './data/content'
+import { MeaningChapter } from './components/MeaningChapter'
 
 const nav = [
-  ['#introduction', 'Overview'], ['#companions', 'The three works'], ['#patterns', 'Patterns'], ['#transmissions', 'Transmissions'], ['#abyss', 'ABYSS'], ['#later-works', 'Later works'], ['#meaning', 'What it means'], ['#archive', 'Archive']
+  ['#introduction', 'Overview'], ['#companions', 'The three works'], ['#patterns', 'Patterns'], ['#transmissions', 'Transmissions'], ['#abyss', 'ABYSS'], ['#later-works', 'Later works'], ['#meaning', 'Meaning & intent'], ['#archive', 'Archive']
 ]
 
 function AppLoader({ onComplete }: { onComplete: () => void }) {
@@ -79,6 +80,11 @@ function Site() {
   const [loaded, setLoaded] = useState(false)
   const [credits, setCredits] = useState(window.location.pathname.replace(/\/$/, '') === '/credits')
   useEffect(() => { const onPop = () => setCredits(window.location.pathname.replace(/\/$/, '') === '/credits'); window.addEventListener('popstate', onPop); return () => window.removeEventListener('popstate', onPop) }, [])
+  useEffect(() => {
+    if (loaded && !credits && window.location.hash) {
+      document.getElementById(window.location.hash.slice(1))?.scrollIntoView({ block: 'start' })
+    }
+  }, [loaded, credits])
   const onCredits = () => { window.history.pushState({}, '', '/credits'); setCredits(true); window.scrollTo(0, 0) }
   const onBack = () => { window.history.pushState({}, '', '/'); setCredits(false); window.scrollTo(0, 0) }
   if (credits) return <Credits onBack={onBack} />
@@ -99,7 +105,7 @@ function Site() {
 
   <section className="section later-section" id="later-works"><SectionHeading num="05" eyebrow="THREE MORE WORKS / NO ASSUMED TRILOGY" title="Beneath. Above. Swim." intro="Their titles invite comparisons. The evidence supports selected links and important failures to align." /><div className="later-grid"><article><SourceImage id="beneath-eye" caption="BENEATH / human eye" /><div><span className="eyebrow">BENEATH / 538 S</span><h3>At the hinge.</h3><p><strong>HORIZON POINT GAMMA</strong> is decoded from its description. A reconstructed <strong>WHITE LIGHT</strong> message appears around 9.16 s, near an audio novelty. A processed human eye cuts to the Moon at 127.72 s.</p><p className="fact-line">EYE → MOON <span>+32.85 dB mid-RMS flank change</span></p><p className="caveat-inline">These are selected AV hinges, not a universal cue rule. The opening figures look protective; their clothing type is unverified.</p><SourceNote source="reports/post-com-audio-visual-forensics.md; evidence/post-com2603/audio-forensics/visual_anchor_audio_flanks.csv" /></div></article><article><SourceImage id="above" caption="ABOVE / abstract image" /><div><span className="eyebrow">ABOVE / 143 S</span><h3>Listen to the layers.</h3><p>Sparse, processed visuals leave its tonal structure unusually exposed. A ~63–65 Hz family persists alongside a ~126–130 Hz harmonic; a ~225–310 Hz line moves under an approximate doubled line.</p><p className="caveat-inline">Layered/processed pitched material is supported. A violin, other strings, or an original speed is not established.</p><SourceNote source="reports/post-com-audio-visual-forensics.md; evidence/post-com2603/audio-forensics/above_band_peaks_2s.csv" /></div></article><article><SourceImage id="swim" caption="SWIM / face at waterline" /><div><span className="eyebrow">SWIM / 210 S</span><h3>Loose coupling.</h3><p>Its description decodes to <strong>VOID</strong>. Face and waterline imagery gives way to aquatic flow and later dark contours. Strong measured sound changes generally do not coincide with the strongest picture cuts.</p><p className="caveat-inline">VOID LIGHT is not a validated link to BENEATH after WHITE LIGHT reconstruction.</p><SourceNote source="reports/post-com-audio-visual-forensics.md; reports/post-com2603-analysis.md" /></div></article></div><div className="later-comparisons"><div><p className="eyebrow">BENEATH / EXACT EDIT</p><div><SourceImage id="beneath-eye-cut" caption="127.68 s / eye" /><SourceImage id="beneath-moon" caption="127.72 s / Moon" /></div><p>The eye and Moon are adjacent source frames. Their 200 ms audio flanks differ by +32.85 dB mid-RMS.</p></div><div><p className="eyebrow">SWIM / LATER IMAGE</p><SourceImage id="swim-late" caption="~135 s / dark contour treatment" /><p>Later contour imagery does not establish a literal tunnel or a consistent sound-to-cut rule.</p></div></div><AboveChart /><div className="audio-compare"><AudioEvidencePlayer title="BENEATH · eye to Moon" ids={['beneath-original']} /><AudioEvidencePlayer title="ABOVE · tonal comparison" ids={['above-original', 'above-tempo3', 'above-speed3', 'above-reverse']} /><AudioEvidencePlayer title="SWIM · audio change" ids={['swim-original']} /></div><div className="title-contrast"><div><span>WHAT THE TITLES SUGGEST</span><p>An ordered journey through below, above, and water.</p></div><div><span>WHAT THE EVIDENCE PROVES</span><p>Three related uploads with distinct visual and audio behavior. A trilogy, inversion, or universal mechanism is unproven.</p></div></div></section>
 
-  <section className="section meaning-section" id="meaning"><SectionHeading num="06" eyebrow="FOUR WAYS TO READ THE RECORD" title="What does it mean?" intro="These models explain different parts of the same material. None turns interpretation into a recovered fact." /><div className="models">{models.map(model => <article key={model.letter}><span className="model-letter">{model.letter}</span><div><h3>{model.name}</h3><p><b>Supporting evidence</b>{model.support}</p><p><b>What it cannot explain</b>{model.problem}</p><span className="model-status">{model.status}</span></div></article>)}</div><div className="synthesis"><span className="eyebrow">THE NARROWEST SUPPORTED ACCOUNT</span><p>The works deliberately transform and recontextualize recognizable images and sounds around recurring observation, reflection, boundary, water, and coded-status motifs.</p><strong>WE KNOW HOW MUCH OF IT IS CONSTRUCTED.<br /><em>WE DO NOT YET KNOW EXACTLY WHAT IT MEANS.</em></strong><a href="#archive" className="button-primary">Show me the evidence <span>↗</span></a></div></section>
+  <MeaningChapter />
 
   <section className="section archive-section" id="archive"><SectionHeading num="07" eyebrow="SELECTED SOURCE MATERIAL" title="The evidence archive" intro="A small portable exhibit, with each copied frame tied to its original investigation path. The full forensic archive is not served here." /><Archive /></section></main><Footer onCredits={onCredits} /></>
 }

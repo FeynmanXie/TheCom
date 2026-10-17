@@ -1,0 +1,36 @@
+{
+  "snapshotDate": "2026-10-17",
+  "watchRecords": 70,
+  "accessibleRecords": 63,
+  "nonemptyDescriptions": 50,
+  "attemptedSegments": 53,
+  "exactSegments": 32,
+  "references": [
+    {
+      "id": "jQfXMOSdWEM",
+      "decoded": "COMPANION PIECE 2603",
+      "ciphertext": "4353512344521653520234615431501858348183",
+      "selfLabel": false
+    },
+    {
+      "id": "Qa5pby9LZhM",
+      "decoded": "COMPANION PIECE TWENTYSIX THREE",
+      "ciphertext": "435351234452165352023461543150312351552312613416323031213561515",
+      "selfLabel": true
+    },
+    {
+      "id": "4HIj-9mU4Tw",
+      "decoded": "COMPANION PIECE TWENTYSIX TWO",
+      "ciphertext": "43535123445216535202346154315031235155231261341632303123553",
+      "selfLabel": true
+    },
+    {
+      "id": "2eSrFAMJY2s",
+      "decoded": "COMPANION PIECE TWENTYSIX ONE",
+      "ciphertext": "4353512344521653520234615431503123515523126134163230535215",
+      "selfLabel": true
+    }
+  ],
+  "scope": "Warning-free exact-round-trip segments in the preserved official-description snapshot; excludes inaccessible records, undecodable segments, internal video text, and later changes.",
+  "source": "evidence/system-model/official-metadata-audit/full_channel_descriptions_decoded.jsonl"
+}

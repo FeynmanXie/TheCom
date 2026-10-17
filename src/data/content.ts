@@ -34,10 +34,3 @@ export const chapters = [
   { n: '02', name: 'COM2602', subtitle: 'A city represented', duration: '242 s', image: 'city', finding: 'An aerial city interface names LONDON SCENARIO SIMULATION, ALT SAFE HOUSE B, and HOTEL SIERRA. A blue Moon precedes REALIGN.', unknown: 'The map’s function, named routes, and any literal realignment are unproven.', source: 'reports/london-scenario-simulation.md; reports/com2602-breakthrough.md' },
   { n: '03', name: 'COM2603', subtitle: 'The line and the return', duration: '497 s', image: 'code-03', finding: 'A long transformed montage reaches END OF LINE and a damaged HEALIN… prefix, then a recolored Moon and later zebra imagery.', unknown: 'The message ending, original imagery, and a single continuous narrative remain unresolved.', source: 'reports/companion-master-timeline.md; reports/companion-transmissions.md' },
 ]
-
-export const models = [
-  { letter: 'A', name: 'Organized audiovisual montage', support: 'Repeated imagery, coded displays, shared closer, and carefully placed edits.', problem: 'Describes construction well but says little about intended meaning.', status: 'Strong conservative account' },
-  { letter: 'B', name: 'Media / representation / transformation', support: 'Same source imagery changes color, orientation, context, and presentation. London explicitly says simulation.', problem: 'Intent cannot be isolated from an equally planned montage.', status: 'Strong structural reading' },
-  { letter: 'C', name: 'Literal fictional system', support: 'Status fields, nodes, named regions, and operational-sounding messages.', problem: 'No verified operator, causal message→state rule, or stable backend.', status: 'Possible, unproved' },
-  { letter: 'D', name: 'Observer / threshold hybrid', support: 'Eye, zebra reflection, waterlines, Moon, and ABYSS title recur around boundaries.', problem: 'Motifs do not identify a literal observer, portal, or mechanism.', status: 'Interpretive model' },
-]

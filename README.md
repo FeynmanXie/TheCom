@@ -15,7 +15,10 @@ The project was built and checked with Node 26 and npm 11. The app uses no runti
 
 ## Content and provenance
 
-- `src/data/content.ts` contains curated transmission, chapter, and model text. Source references point to paths relative to the parent investigation directory.
+- `src/data/content.ts` contains curated transmission and chapter text. Source references point to paths relative to the parent investigation directory.
+- `src/data/meaning.ts` contains the interpretive chapter, its evidence references, relationship types, and four explanatory models.
+- `public/research/` contains portable copies of the meaning analysis, evidence matrix, and executive summary.
+- `npm run prepare:meaning` regenerates the bounded official-description audit and those three report copies from the sibling investigation. Production builds use the committed copies and require no parent archive.
 - `src/data/abyss-measurements.json` contains the original 40 ms measurement rows from `evidence/post-com2603/audio-forensics/abyss_40ms_178_218.csv`.
 - `src/data/above-peaks.json` contains the measured two-second frequency peaks from `evidence/post-com2603/audio-forensics/above_band_peaks_2s.csv`.
 - `src/data/evidence-manifest.json` records every copied still and audio excerpt, its original investigation path, work, time, purpose, and derivation.

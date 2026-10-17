@@ -30,3 +30,14 @@ Build and typecheck; inspect desktop and phone; check primary controls, reduced 
 ## Branding decision
 
 The user approved attribution to **FeynmanXie** and approved a locally created typographic logo. The shared footer phrase is “Site design and development by FeynmanXie.” The unlisted `/credits` route uses `noindex, nofollow, noarchive`, is omitted from navigation and sitemap, and is linked from the shared footer. Copyright year: 2026. Rights wording distinguishes the site design from source audiovisual material, credited to its original creator, 3121534312.
+
+## Meaning chapter extension — 2026-10-17
+
+SPEC: ACCEPTED (the user's supplied “Investigating Meaning and Intent” task)
+BRANDING: YES (existing explicit approval and shared footer retained)
+
+Extend `#meaning` into “THE MEANING BEHIND THE COMPANION FILES”, with the subtitle “What are these works trying to tell us?” Reuse the existing evidence components, source frames, confidence badges, theme and shared shell. Add motif comparisons, a message-role explorer, a relationship graph, a viewer/observer exercise, four comparable hypotheses, unresolved questions, and a concise synthesis. Keep observation, structural interpretation and possible meaning visibly distinct. Every major reading must expose its evidence and its limits.
+
+Research deliverables live in the parent investigation's `reports/`: `companion-meaning-analysis.md`, `meaning-evidence-matrix.md`, and `companion-meaning-summary.md`. Portable copies are served from `public/research/`; a preparation script copies only these new reports and audits existing official-description ledgers. Original forensic evidence is read only. The chapter's H1–H4 names follow the new task, with an explicit mapping to the older nine-model ledger.
+
+Navigation links directly to the chapter and its seven subsections. On phones, selectors wrap, the graph becomes stacked relationship entries, and all evidence remains accessible by touch and keyboard. Validate the production build, primary existing and new controls, desktop/phone layouts, media, deep links, and credit route. Review and commit locally. **Do not push or deploy this extension.**

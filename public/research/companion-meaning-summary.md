@@ -1,0 +1,11 @@
+# Executive summary: what might The Companion Files mean?
+
+The seven works demonstrably combine recognizable subjects with altered presentation. COM2601 explicitly narrates a zebra observing a reflection that is “the same, but different.” COM2601/02 probably reuse an Eye/performer construction with changed card content, and COM2602/03 demonstrably transform the same Moon image. Coded reports and carefully placed sound changes provide formal organization. These observations support deliberate composition, without selecting one intended meaning.
+
+A strong interpretation is that the works explore how recognition survives distortion: the subject seems familiar while its color, orientation, sound, label or context changes. System-like displays can suggest institutional authority or fictional operations. Their actual function varies locally: WHITE LIGHT accompanies a white field, END OF LINE ends one border line before more code appears, and other messages have no recovered consistent response rule.
+
+“Companion” is clearest as a relationship label. ABYSS's official description names COMPANION PIECE 2603. It does not specify whether the work is a thematic counterpart, alternative perspective or narrative supplement. No comparable external reference to COM2601/02 was recovered in the exact accessible-description subset; missing or undecodable material prevents an absence claim.
+
+Earlier official TESTERS/CONTROL language makes broader fiction plausible. It does not identify the COM Eye or viewer as that observer. “The viewer becomes the observer” is a meaningful artistic hypothesis, since audiences can decode and compare incomplete representations, but no recovered COM creator statement confirms it.
+
+Organized audiovisual art with representation and transformation as its observable method requires the fewest unsupported assumptions. A literal system or continuous threshold narrative needs additional identities and causal rules. These remain possible. The unresolved questions are what kind of relationship ABYSS has to COM2603, what the damaged messages say, how older fiction connects, and what the artist intended. Understanding construction gives us grounds for interpretation; it does not give us direct access to intention.
