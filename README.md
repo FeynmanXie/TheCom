@@ -31,3 +31,9 @@ The site separates source observations from interpretation. `REALIGN` and `HEALI
 ## Site credit
 
 The footer links to an unlisted `/credits` page for FeynmanXie. The page carries a locally authored SVG logo and dynamic `noindex, nofollow, noarchive` metadata. Source works and excerpts remain credited to 3121534312 and their rights holders.
+
+## License and rights
+
+The original application code and build scripts are available under the [MIT License](LICENSE). This includes the React components, styles, Vite configuration, and evidence-preparation script. Preserve the copyright and license notice when reusing that code.
+
+The MIT grant does **not** cover the audiovisual excerpts in `public/evidence/`, the source-derived measurements and provenance in `src/data/`, the site's editorial text, or the FeynmanXie name, logos, and favicon in `public/brand/` and `public/favicon.svg`. Those materials are included for this investigation only; their appearance in this repository does not grant permission to reuse them. Rights in the original Companion works remain with 3121534312 and any other applicable rights holders. Contact the relevant rights holder before reusing excluded material.
