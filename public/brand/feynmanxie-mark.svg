@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">FeynmanXie signature mark</title>
+  <desc id="desc">A fine outlined circle crossed by three signal lines, above the name FeynmanXie.</desc>
+  <rect width="900" height="420" fill="#0b1210"/>
+  <g fill="none" stroke="#9dc7b5" stroke-width="2">
+    <circle cx="450" cy="145" r="77"/>
+    <path d="M260 145h121m138 0h121M450 48v20m0 154v20"/>
+    <path d="M368 164c28-48 53 38 81-10 28-48 51 22 81-19" stroke-width="3"/>
+    <path d="M332 243h236" stroke="#667b70"/>
+  </g>
+  <text x="450" y="330" fill="#ecede2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" letter-spacing="11">FEYNMANXIE</text>
+  <text x="450" y="371" fill="#9dc7b5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="6">DESIGN / DEVELOPMENT</text>
+</svg>
