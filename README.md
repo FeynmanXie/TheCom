@@ -1,4 +1,8 @@
-# The Companion Files
+# The Archive of 312
+
+An Independent Investigation into 3121534312
+
+**The Companion Files** is the Companion-specific investigation chapter within The Archive of 312. Its research documents retain their chapter titles.
 
 An evidence-based interactive documentary about the Companion works by 3121534312. This is a standalone Vite + React + TypeScript project. It deliberately serves a small selected exhibit, not the full forensic archive.
 

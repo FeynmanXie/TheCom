@@ -1,4 +1,4 @@
-# The Companion Files — implementation brief
+# The Archive of 312 — implementation brief
 
 SPEC: ACCEPTED (the supplied build specification, confirmed by the user)
 BRANDING: YES (explicit user reply)
@@ -28,6 +28,8 @@ The current `companion-system-model.md`, `final-companion-synthesis.md`, `compan
 Build and typecheck; inspect desktop and phone; check primary controls, reduced motion, media paths, provenance coverage, and repository boundary. The site is committed only inside this directory, with no remote push.
 
 ## Branding decision
+
+The site title is **The Archive of 312**, with the subtitle **An Independent Investigation into 3121534312**. **The Companion Files** remains the name of the Companion-specific investigation chapter; its research titles and content are preserved.
 
 The user approved attribution to **FeynmanXie** and approved a locally created typographic logo. The shared footer phrase is “Site design and development by FeynmanXie.” The unlisted `/credits` route uses `noindex, nofollow, noarchive`, is omitted from navigation and sitemap, and is linked from the shared footer. Copyright year: 2026. Rights wording distinguishes the site design from source audiovisual material, credited to its original creator, 3121534312.
 
