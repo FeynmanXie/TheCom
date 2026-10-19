@@ -11,11 +11,12 @@ An evidence-based interactive documentary about the Companion works by 312153431
 ```sh
 npm install
 npm run dev
+npm run test:archive
 npm run build
 npm run preview
 ```
 
-The project was built and checked with Node 26 and npm 11. The app uses no runtime path into its parent investigation directory. Serve the production `dist/` with a rewrite of `/credits` to `index.html` for direct credit-page visits.
+The project was built and checked with Node 26 and npm 11. The app uses no runtime path into its parent investigation directory. Serve the production `dist/` with an SPA fallback to `index.html` for `/credits`, `/archive`, `/collections/*`, and `/works/*`, so direct visits and refreshes resolve correctly.
 
 ## Content and provenance
 
@@ -44,3 +45,9 @@ The footer links to an unlisted `/credits` page for FeynmanXie. The page carries
 The original application code and build scripts are available under the [MIT License](LICENSE). This includes the React components, styles, Vite configuration, and evidence-preparation script. Preserve the copyright and license notice when reusing that code.
 
 The MIT grant does **not** cover the audiovisual excerpts in `public/evidence/`, the source-derived measurements and provenance in `src/data/`, the site's editorial text, or the FeynmanXie name, logos, and favicon in `public/brand/` and `public/favicon.svg`. Those materials are included for this investigation only; their appearance in this repository does not grant permission to reuse them. Rights in the original Companion works remain with 3121534312 and any other applicable rights holders. Contact the relevant rights holder before reusing excluded material.
+
+## Browsable archive
+
+`/archive` offers search, status/category/collection/season filters, a Companion collection preview, and seven evidence-led articles. `/collections/companion-files` contains exactly COM2601–03; ABYSS is presented separately as a related follow-on work. Numeric official titles remain exact. All current records are partially solved; seasons and unsupported translations stay unknown.
+
+See [the content specification and source mapping](docs/ARCHIVE_CONTENT_SPEC.md) for registry fields, authoring, status criteria, and verification. Original investigation files are read only; the website serves selected report copies and existing derivative media.

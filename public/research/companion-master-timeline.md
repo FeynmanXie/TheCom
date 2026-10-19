@@ -1,0 +1,58 @@
+# Companion corpus: source-frame structural timeline
+
+All times are source media time, not player time; frame numbers are zero-based at 25 fps. A range `a–b` includes frames `a` through `b`; ordinary montage boundaries shown at whole seconds are **navigation bins uncertain by up to about one second**, while named cut peaks and code/flash boundaries were checked against full-rate extractions. `—` means no recoverable item, not proof that none exists. `U` means unresolved. Audio, text and encoding detail is expanded in [narration](companion-narration.md) and [transmissions](companion-transmissions.md). The [per-frame metrics](../evidence/companion/) cover **every** source frame at reduced resolution; source-resolution full-rate windows were used for suspect codes, eyes, city labels, Moon/code junctions, oral-care footage, and closing flashes. The computational pass demonstrably misses small known codes, so this is a structural inventory, not an absence proof.
+
+| Video | Time (s); frames | Visual subject and transformation | Spoken audio; visible English; Trinary; Matrix; other code | Audio anomaly; transition; source hypothesis | Confidence |
+|---|---|---|---|---|---|
+| 01 | 0–24.04; 0–601 | Abstract opening and transformed imagery | —; —; —; —; — | Processed bed; hard/morphed cuts; source U | visual confirmed |
+| 01 | 24.08–30.32; 602–758 | New abstract/organic tableau | —; —; —; —; — | hard cut; source U | visual confirmed |
+| 01 | 30.36–51.96; 759–1299 | Montage of organic and geographic forms, heavy color/edge processing | —; —; —; —; — | internal transitions; source U | visual confirmed |
+| 01 | 52.00–63.84; 1300–1596 | New montage phase | —; —; —; —; — | hard cuts; source U | visual confirmed |
+| 01 | 63.88–66.44; 1597–1661 | Transition toward giant eye graphic | —; —; —; —; — | abrupt entry; reused composition in 02 probable | visual confirmed |
+| 01 | 66.48–73.36; 1662–1834 | Giant eye, tiny figure, top-hatted performer, pictorial card-like face switching at f1772 to a single-heart playing card; distortion/displacement | —; —; —; —; — | transformed montage; Eye composition and moving performer source probably reused in 02; [source-frame card audit](companion-eye-card-analysis.md) | heart pip confirmed; Ace rank probable; reuse probable |
+| 01 | 73.40–74.56; 1835–1864 | REGION BETA status panel, right-edge Matrix strip, scrolling bottom ticker | —; `REGION BETA`, `SNOW STORM…`; —; three visible Matrix rows; ticker U | hard cut; bespoke status graphic | confirmed panel; Matrix plaintext probable |
+| 01 | 74.60–76.96; 1865–1924 | Same panel under glitch/crop; Matrix row stays outside frame | —; weather/status fields; —; `BETA SNOW STORM` candidate; ticker U | block noise/scroll; graphic source U | confirmed visible fields; candidate probable |
+| 01 | 77.00–82.20; 1925–2055 | Numeric transmission screen, increasingly displaced/obscured near its end | —; —; `4121321303461343121551340552326544213` → `ALL SYSTEMS NORMAL`; —; — | direct panel→code cut at f1924→1925 and code→Moon cut at f2055→2056; [native boundary frames](../evidence/system-model/message-boundaries/COM2601/) | confirmed screen bounds and decode; late full-string legibility varies |
+| 01 | 82.24–83.20; 2056–2080 | Red Moon, recolored | —; —; —; —; — | cut; lunar source U | visual confirmed |
+| 01 | 83.24–111.00; 2081–2775 | Strongly processed face-like figure among vertical forms by ~85–89 s, then large animal-like forms and landscape imagery from ~90 s; exact internal transition unresolved | —; —; —; —; — | flickering/dark treatments; no clean subject-changing cut at f2250→2251; original footage U | broad sequence confirmed; subject identities provisional |
+| 01 | 111.04–130.96; 2776–3274 | Zebra at water, reflection and close-ups; image orientation/mirroring changes | verified zebra reflection narration 112.16–128.36; —; —; —; — | water ripples and processed bed; wildlife source U | narration confirmed |
+| 01 | 131.00–136.00; 3275–3400 | Zebra image becomes kaleidoscopic/symmetric and rotates | —; —; —; —; — | geometric transformation; source U | visual confirmed |
+| 01 | 136.04–136.12; 3401–3403 | Transition into shared closing template | —; —; —; —; — | same closing visual begins by f3403; navigation split before f3404 | confirmed |
+| 01 | ~136.16–146.00; 3404–3650 | Shared glitch/COM sign-off | —; —; `435351` → `COM`; —; — | matching audiovisual closing template | confirmed |
+| 02 | 0–3.52; 0–88 | Abstract opening | —; —; —; —; — | processed bed/cut; source U | visual confirmed |
+| 02 | 3.56–7.08; 89–177 | Giant eye over small figure/performer, top hat, hands and ten-diamond-pip playing card; graphic warping | —; —; —; —; — | hard cut; probable reused Eye composition and moving performer source from 01; [source-frame card audit](companion-eye-card-analysis.md) | card identity probable; source reuse probable; card-edit method unresolved |
+| 02 | 7.12–52.92; 178–1323 | Edge-outlined city/river aerial, green boxes, X marks and dashed trajectories; Japanese header frames 190–198, numeric header from 199; one decoded boxed node | —; Japanese `ロンドンシナリオシミュレーション`; `LONDON SCENARIO SIMULATION` and `ALT SAFE HOUSE B` confirmed; —; other labels U | cut; probable City of London landmark, exact original aerial U | header and one node confirmed; function unresolved; [audit](london-scenario-simulation.md) |
+| 02 | 52.96–55.48; 1324–1387 | Two-row numeric ticker over pale glitch field following city graphic | —; —; source-backed partial groups and decoder fragments; no complete plaintext | approximately 3 pixels left per frame, central co-moving occlusion | visible confirmed; transcription partial; [audit](com2602-breakthrough.md) |
+| 02 | 55.52–67.28; 1388–1682 | Blue abstract montage after the ticker | —; —; —; —; — | hard transition at f1387→1388; source U | visual confirmed |
+| 02 | 67.32–111.96; 1683–2799 | Long abstract/landscape sequence | —; —; —; —; — | multiple internal cuts; source U | visual confirmed |
+| 02 | 112.00–112.72; 2800–2818 | Blue Moon still, no measurable motion within shot | —; —; —; —; — | hard cut in/out; same lunar base as 03 | visual/match confirmed |
+| 02 | 112.76–113.80; 2819–2845 | Numeric grid replaces Moon | —; —; `2615412131613152` → `REALIGN` prefix; —; rest U | abrupt Moon→code cut; graphic | prefix confirmed |
+| 02 | 113.84–137.44; 2846–3436 | Adults, toothbrushes and oral-care presentation across several shots, intense block/chroma distortion | no verified speech; no readable brand; —; —; — | abrupt entry, datamosh-like persistence; source U | subject probable; pipeline unresolved |
+| 02 | 137.48–153.96; 3437–3849 | Transitional abstract / wildlife imagery | —; —; —; —; — | hard cut; source U | visual confirmed |
+| 02 | 154.00–173.44; 3850–4336 | Zebra in savanna/close-up, inversion around 165 s; final plains shot f4266–4336 probably reused in COM03 | zebra/night-sky/savanna narration 156.04–173.14 (probable ASR); —; —; —; — | plains-shot boundaries native-frame verified; source reuse probable | visual confirmed; wording probable |
+| 02 | 173.48–230.68; 4337–5767 | Extended transformed imagery/landscape | —; —; —; —; — | hard cut from plains shot f4336→4337; later cuts; source U | visual confirmed |
+| 02 | 230.72–231.72; 5768–5793 | Transition into final section | —; —; —; —; — | sharp cut; source U | visual confirmed |
+| 02 | 231.76–241.72; 5794–6043 | Shared glitch/COM sign-off | —; —; `435351` → `COM`; —; — | same audiovisual closing template | confirmed |
+| 03 | 0–6.96; 0–174 | Wet street/lamp and tall-ear-like silhouettes | —; —; —; —; — | strong processing/cut; source U | scene confirmed; object label provisional |
+| 03 | 7.00–12.64; 175–316 | Reclining woman beside water; face/torso remain in the same depicted water-side position | —; —; —; —; — | exact cut f316→317; source U | visual confirmed; no physical waterline crossing seen in full-rate f175–316 |
+| 03 | 12.68–17.96; 317–449 | Three human heads appear at f317 in a thin, heavily degraded upper image strip; subsequent rounded forms/glitch | —; —; —; —; — | abrupt woman→multi-head cut; warped compositing thereafter; source U | f317 heads visually supported; later shape identity provisional |
+| 03 | 18.00–39.96; 450–999 | Radial lights, chalice/fountain-like and branching/water forms | —; —; —; —; — | cuts/warps; source U | visual confirmed; labels tentative |
+| 03 | 40.00–69.96; 1000–1749 | Circular aperture/vortex, grids, segmented spheres | —; —; —; —; — | cuts/warps; source U | visual confirmed |
+| 03 | 70.00–135.96; 1750–3399 | Organic flower/jellyfish/mushroom-like imagery | —; —; —; —; — | chromatic/shape transformation; source U | visual confirmed; object labels tentative |
+| 03 | 136.00–194.96; 3400–4874 | Cellular and branching structures | —; —; —; —; — | morphs/cuts; source U | visual confirmed |
+| 03 | 195.00–254.96; 4875–6374 | Water/terrain, rays, mountain-like forms | —; —; —; —; — | cuts/distortion; source U | visual confirmed; labels tentative |
+| 03 | 255.00–315.96; 6375–7899 | Repeating row/arch motifs, diagonal overlays, windows | —; —; —; —; — | distortion/cuts; source U | visual confirmed |
+| 03 | 316.00–378.96; 7900–9474 | Spheres, windows, train, storm/space view, coast | —; —; —; —; — | scene cuts; source U | visual confirmed |
+| 03 | 379.00–380.68; 9475–9517 | Near-black transition | —; —; —; —; — | fade/cut; source U | visual confirmed |
+| 03 | 380.72–383.48; 9518–9587 | Blue numeric code sequence | —; —; `15521210531230213165215` → `END OF LINE`; —; — | abrupt code entry; graphic | confirmed decode |
+| 03 | 383.52–394.44; 9588–9861 | Red code sequence, obscured ending | —; —; `13215412131652???` → `HEALIN…`; —; — | glitch/occlusion; graphic | confirmed prefix only |
+| 03 | 394.48–397.40; 9862–9935 | Yellow/green Moon, rotated/cropped/recolored from 02 base | —; —; —; —; — | hard code→Moon cut; internal visual match | confirmed |
+| 03 | 397.44–418.72; 9936–10468 | Color-distorted figure and landscape | —; —; —; —; — | f10468 is last vivid landscape frame; shape/chroma warp; source U | visual confirmed |
+| 03 | 418.76–421.64; 10469–10541 | Lighthouse with birds on rocky coast (earlier keyframe filename says `statue`) | —; —; —; —; — | f10541 is last lighthouse frame; hard cut; source U | visual confirmed |
+| 03 | 421.68–461.64; 10542–11541 | Zebra/striped wildlife montage with distortion | —; —; —; —; — | internal cuts; f11541 is last preceding stripe frame; original wildlife source U | visual confirmed |
+| 03 | 461.68–465.12; 11542–11628 | High-contrast zebra-plains shot; probable same source as COM02 f4266–4336 | —; —; —; —; — | exact displayed-shot bounds from native adjacent frames; source reuse probable | visual confirmed; reuse probable |
+| 03 | 465.16–471.08; 11629–11777 | Zebra close-up, degraded speech, brief COM-like overlay at 470.76–471.08 | `[???] first contact [???] gradually [???]` islands; —; partial flash only; —; — | hard cut from plains shot f11628→11629; audio/channel impairment and image flash | speech islands probable; flash confirmed |
+| 03 | 471.12–487.04; 11778–12176 | Corridor then crowd and transformed architecture | —; —; —; —; — | hard cut; source U | visual confirmed |
+| 03 | 487.08–497.04; 12177–12426 | Shared glitch/COM sign-off | —; —; `435351` → `COM`; —; — | matching audiovisual closing template | confirmed |
+
+The exact closing onset in 01 is a few frames before the 136.04 scene metric peak; the table's approximate overlap signals this uncertainty. Cut estimates elsewhere are not intended as new decoded evidence. Selected source-frame [keyframes](../evidence/companion/keyframes/) and [contact sheets](../evidence/companion/contact-sheets/) provide the visual audit trail.

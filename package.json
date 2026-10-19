@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "prepare:evidence": "python3 scripts/prepare_evidence.py",
-    "prepare:meaning": "python3 scripts/prepare_meaning.py"
+    "prepare:meaning": "python3 scripts/prepare_meaning.py",
+    "test:archive": "node scripts/test-archive.cjs"
   },
   "dependencies": {
     "react": "^19.1.1",

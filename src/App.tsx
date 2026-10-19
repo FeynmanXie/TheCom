@@ -3,9 +3,10 @@ import { AboveChart, AbyssChart } from './components/Charts'
 import { asset, AudioEvidencePlayer, ConfidenceBadge, LensPanel, media, SourceImage, SourceNote } from './components/Evidence'
 import { chapters, transmissions } from './data/content'
 import { MeaningChapter } from './components/MeaningChapter'
+import { ArchivePages } from './archive/ArchivePages'
 
 const nav = [
-  ['#introduction', 'Overview'], ['#companions', 'The three works'], ['#patterns', 'Patterns'], ['#transmissions', 'Transmissions'], ['#abyss', 'ABYSS'], ['#later-works', 'Later works'], ['#meaning', 'Meaning & intent'], ['#archive', 'Archive']
+  ['#introduction', 'Overview'], ['#companions', 'The three works'], ['#patterns', 'Patterns'], ['#transmissions', 'Transmissions'], ['#abyss', 'ABYSS'], ['#later-works', 'Later works'], ['#meaning', 'Meaning & intent'], ['/archive', 'Archive']
 ]
 
 function AppLoader({ onComplete }: { onComplete: () => void }) {
@@ -28,17 +29,17 @@ function AppLoader({ onComplete }: { onComplete: () => void }) {
   return <div className="loader" role="status" aria-live="polite"><div className="loader__inner"><div className="loader__mark">A<span>/</span>312</div><p className="eyebrow">THE ARCHIVE OF 312</p><div className="loader__rule"><i style={{ width: `${(step + 1) * 25}%` }} /></div><p>{['INITIALIZING ARCHIVE', 'VERIFYING SOURCE MATERIAL', 'LOADING AUDIO EVIDENCE', 'RECONSTRUCTING TIMELINE'][step]}</p><button type="button" onClick={() => { sessionStorage.setItem('archive-seen', '1'); onComplete() }}>Skip introduction →</button></div></div>
 }
 
-function Header() {
+export function Header() {
   const [open, setOpen] = useState(false)
-  return <header className="site-header"><a href="#top" className="wordmark" aria-label="The Archive of 312, back to top"><b>THE ARCHIVE</b><span>OF 312<span className="wordmark__dot">.</span></span></a><button className="menu-toggle" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen(v => !v)}>{open ? 'CLOSE' : 'INDEX'} <span aria-hidden="true">{open ? '×' : '+'}</span></button><nav id="primary-navigation" className={open ? 'nav nav--open' : 'nav'} aria-label="Primary navigation">{nav.map(([href, label]) => <a onClick={() => setOpen(false)} key={href} href={href}>{label}</a>)}</nav><span className="header-index">3121534312 / INVESTIGATION</span></header>
+  return <header className="site-header"><a href="/#top" className="wordmark" aria-label="The Archive of 312, back to top"><b>THE ARCHIVE</b><span>OF 312<span className="wordmark__dot">.</span></span></a><button className="menu-toggle" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen(v => !v)}>{open ? 'CLOSE' : 'INDEX'} <span aria-hidden="true">{open ? '×' : '+'}</span></button><nav id="primary-navigation" className={open ? 'nav nav--open' : 'nav'} aria-label="Primary navigation">{nav.map(([href, label]) => <a onClick={() => setOpen(false)} key={href} href={href.startsWith('#') ? `/${href}` : href}>{label}</a>)}</nav><span className="header-index">3121534312 / INVESTIGATION</span></header>
 }
 
 function SectionHeading({ num, eyebrow, title, intro }: { num: string; eyebrow: string; title: string; intro?: string }) {
   return <div className="section-heading"><div className="section-heading__number">{num}<span> / 08</span></div><div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2>{intro && <p className="section-intro">{intro}</p>}</div></div>
 }
 
-function Footer({ onCredits }: { onCredits: () => void }) {
-  return <footer className="site-footer"><div className="footer-top"><span className="wordmark wordmark--footer"><b>THE ARCHIVE</b><span>OF 312.</span></span><p>A source-led reading of works by <strong>3121534312</strong>. The original audiovisual material belongs to its creator. This independent investigation preserves uncertainty.</p></div><div className="footer-bottom"><span>© 2026 The Archive of 312 · Source works © their respective rights holders</span><a href="/credits" onClick={e => { e.preventDefault(); onCredits() }}>Site design and development by FeynmanXie ↗</a><a href="#top">Back to top ↑</a></div></footer>
+export function Footer({ onCredits }: { onCredits: () => void }) {
+  return <footer className="site-footer"><div className="footer-top"><span className="wordmark wordmark--footer"><b>THE ARCHIVE</b><span>OF 312.</span></span><p>A source-led reading of works by <strong>3121534312</strong>. The original audiovisual material belongs to its creator. This independent investigation preserves uncertainty.</p></div><div className="footer-bottom"><span>© 2026 The Archive of 312 · Source works © their respective rights holders</span><a href="/credits" onClick={e => { e.preventDefault(); onCredits() }}>Site design and development by FeynmanXie ↗</a><a href="/#top">Back to top ↑</a></div></footer>
 }
 
 function Credits({ onBack }: { onBack: () => void }) {
@@ -89,7 +90,7 @@ function Site() {
   const onBack = () => { window.history.pushState({}, '', '/'); setCredits(false); window.scrollTo(0, 0) }
   if (credits) return <Credits onBack={onBack} />
   if (!loaded) return <AppLoader onComplete={() => setLoaded(true)} />
-  return <><Header /><main id="top"><section className="hero" aria-labelledby="hero-title"><div className="hero-image"><SourceImage id="hero-city" eager /><div className="hero-image__overlay" /></div><div className="hero-content"><div className="hero-topline"><span>AN INDEPENDENT INVESTIGATION</span><span>FILE NO. 3121534312 / 001</span></div><div className="hero-title-block"><p className="eyebrow">THE ARCHIVE IS OPEN</p><h1 id="hero-title" aria-label="The Archive of 312">THE<br />ARCHIVE<br /><em>OF 312.</em></h1><p className="hero-subtitle">An Independent Investigation into 3121534312<br />Seven works. Repeated images. A story still open.</p><div className="hero-actions"><a className="button-primary" href="#introduction">Enter the investigation <span>↗</span></a><a href="#archive" className="text-link">Inspect the evidence ↓</a></div></div><div className="hero-bottom"><span>SCROLL TO BEGIN</span><span>EST. READING TIME / 08 MIN</span></div></div></section>
+  return <><Header /><main id="top"><section className="hero" aria-labelledby="hero-title"><div className="hero-image"><SourceImage id="hero-city" eager /><div className="hero-image__overlay" /></div><div className="hero-content"><div className="hero-topline"><span>AN INDEPENDENT INVESTIGATION</span><span>FILE NO. 3121534312 / 001</span></div><div className="hero-title-block"><p className="eyebrow">THE ARCHIVE IS OPEN</p><h1 id="hero-title" aria-label="The Archive of 312">THE<br />ARCHIVE<br /><em>OF 312.</em></h1><p className="hero-subtitle">An Independent Investigation into 3121534312<br />Seven works. Repeated images. A story still open.</p><div className="hero-actions"><a className="button-primary" href="#introduction">Enter the investigation <span>↗</span></a><a href="/archive" className="text-link">Browse the archive ↗</a></div></div><div className="hero-bottom"><span>SCROLL TO BEGIN</span><span>EST. READING TIME / 08 MIN</span></div></div></section>
 
   <section className="intro-section section" id="introduction"><div className="intro-grid"><div className="intro-label"><span className="eyebrow">00 / THE COMPANION FILES</span><div className="vertical-rule" /></div><div><p className="kicker">FIRST, THE ESSENTIALS</p><h2>What are we looking at?</h2><p className="lead">Three works called <em>Companion</em> by 3121534312 combine transformed footage, a recurring zebra, numeric transmissions, and a shared sign-off. Four later works extend some of the imagery and sound vocabulary.</p><p>The investigation compared original source frames and soundtracks, decoded verified strings, measured audio changes, and tested competing explanations. The result is a map of <strong>what can be shown</strong>, where reuse is probable, and where the story stops short of proof.</p><div className="three-states"><div><span>01 / WHAT WE KNOW</span><strong>The works are deliberately structured.</strong></div><div><span>02 / WHAT IT MAY MEAN</span><strong>They explore observation and representation.</strong></div><div><span>03 / WHAT WE DON'T KNOW</span><strong>Whether a literal system exists in their fiction.</strong></div></div></div></div><div className="case-strip"><div><strong>03</strong><span>COMPANION WORKS</span></div><div><strong>04</strong><span>LATER WORKS EXAMINED</span></div><div><strong>14</strong><span>SOURCE-BACKED SIGNAL ENTRIES</span></div><div><strong>40 <small>ms</small></strong><span>ABYSS AUDIO RESOLUTION</span></div></div><div className="corpus-timeline"><span>INVESTIGATED CORPUS / SEQUENCE</span><div><b>COM2601</b><i>→</i><b>COM2602</b><i>→</i><b>COM2603</b><i>→</i><b>ABYSS</b><i>→</i><b>BENEATH</b><i>→</i><b>ABOVE</b><i>→</i><b>SWIM</b></div><small>Post-COM official upload dates: 24 Apr · 6 Jun · 25 Jun · 12 Oct 2026. Sequence is a reading guide, not a proven story order.</small></div></section>
 
@@ -110,4 +111,30 @@ function Site() {
   <section className="section archive-section" id="archive"><SectionHeading num="07" eyebrow="SELECTED SOURCE MATERIAL" title="The evidence archive" intro="A small portable exhibit, with each copied frame tied to its original investigation path. The full forensic archive is not served here." /><Archive /></section></main><Footer onCredits={onCredits} /></>
 }
 
-export default function App() { return <Site /> }
+export default function App() {
+  const [path, setPath] = useState(window.location.pathname.replace(/\/$/, '') || '/')
+  const navigate = (next: string) => {
+    window.history.pushState({}, '', next)
+    setPath(window.location.pathname.replace(/\/$/, '') || '/')
+    window.scrollTo(0, 0)
+  }
+  useEffect(() => {
+    const pop = () => setPath(window.location.pathname.replace(/\/$/, '') || '/')
+    const click = (event: MouseEvent) => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+      const anchor = (event.target as Element).closest('a')
+      if (!anchor || anchor.target || anchor.hasAttribute('download')) return
+      const url = new URL(anchor.href)
+      if (url.origin !== window.location.origin) return
+      const archiveTarget = /^\/(archive|collections|works)(\/|$)/.test(url.pathname)
+      const archiveCurrent = /^\/(archive|collections|works)(\/|$)/.test(window.location.pathname)
+      if (!archiveTarget && !(archiveCurrent && ['/', '/credits'].includes(url.pathname))) return
+      event.preventDefault()
+      navigate(url.pathname + url.search + url.hash)
+    }
+    window.addEventListener('popstate', pop)
+    document.addEventListener('click', click)
+    return () => { window.removeEventListener('popstate', pop); document.removeEventListener('click', click) }
+  }, [])
+  return /^\/(archive|collections|works)(\/|$)/.test(path) ? <ArchivePages path={path} navigate={navigate} /> : <Site key={path} />
+}

@@ -1,0 +1,976 @@
+[
+  {
+    "id": "com2601",
+    "slug": "com2601",
+    "originalTitle": "435354858348181",
+    "decodedTitle": null,
+    "translatedTitle": null,
+    "displayTitle": "COM2601",
+    "creator": {
+      "name": "3121534312",
+      "channelUrl": "https://www.youtube.com/channel/UCZuo5SNTcSRxTg_1xnqkUKQ"
+    },
+    "officialVideoUrl": "https://www.youtube.com/watch?v=2eSrFAMJY2s",
+    "youtubeVideoId": "2eSrFAMJY2s",
+    "thumbnail": {
+      "mediaId": "beta",
+      "attribution": "3121534312; selected investigator-derived frame"
+    },
+    "publishedAt": "2026-01-26",
+    "durationSeconds": 146,
+    "description": {
+      "kind": "official",
+      "text": "4353512344521653520234615431503123515523126134163230535215",
+      "source": "evidence/decoded/companion_2601.info.json"
+    },
+    "collectionIds": [
+      "companion-files"
+    ],
+    "categories": [
+      "Companion",
+      "visual cipher",
+      "transmission"
+    ],
+    "season": null,
+    "chronology": {
+      "publicationOrder": 1,
+      "viewingOrder": 1,
+      "scope": "Seven reviewed works; archive viewing order, not a proven narrative"
+    },
+    "investigationStatus": "partially_solved",
+    "articlePath": "/works/com2601",
+    "sources": [
+      {
+        "id": "metadata",
+        "path": "evidence/decoded/companion_2601.info.json",
+        "kind": "official",
+        "sha256": "0ec047ba084874e5bde5eb82b10235a072b6aaaf6b70d10579fb8ca6d4765501"
+      },
+      {
+        "id": "source-register",
+        "path": "reports/companion-investigation.md",
+        "kind": "investigator-verified"
+      },
+      {
+        "id": "archive-editorial",
+        "path": "docs/ARCHIVE_CONTENT_SPEC.md",
+        "kind": "interpretation"
+      },
+      {
+        "id": "selected-media",
+        "path": "src/data/evidence-manifest.json",
+        "kind": "investigator-verified"
+      }
+    ],
+    "fieldSources": {
+      "originalTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "decodedTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "creator": [
+        "metadata",
+        "source-register"
+      ],
+      "officialVideoUrl": [
+        "metadata",
+        "source-register"
+      ],
+      "youtubeVideoId": [
+        "metadata",
+        "source-register"
+      ],
+      "publishedAt": [
+        "metadata",
+        "source-register"
+      ],
+      "durationSeconds": [
+        "metadata",
+        "source-register"
+      ],
+      "description": [
+        "metadata",
+        "source-register"
+      ],
+      "chronology": [
+        "metadata",
+        "source-register"
+      ],
+      "displayTitle": [
+        "archive-editorial"
+      ],
+      "collectionIds": [
+        "archive-editorial"
+      ],
+      "categories": [
+        "archive-editorial"
+      ],
+      "season": [
+        "archive-editorial"
+      ],
+      "investigationStatus": [
+        "archive-editorial"
+      ],
+      "articlePath": [
+        "archive-editorial"
+      ],
+      "lastReviewedAt": [
+        "archive-editorial"
+      ],
+      "lastUpdatedAt": [
+        "archive-editorial"
+      ],
+      "resolutionCriteria": [
+        "archive-editorial"
+      ],
+      "thumbnail": [
+        "selected-media"
+      ],
+      "translatedTitle": [
+        "archive-editorial"
+      ]
+    },
+    "lastReviewedAt": "2026-10-17",
+    "lastUpdatedAt": "2026-10-19",
+    "relatedWorks": [],
+    "resolutionCriteria": null
+  },
+  {
+    "id": "com2602",
+    "slug": "com2602",
+    "originalTitle": "435354858348182",
+    "decodedTitle": null,
+    "translatedTitle": null,
+    "displayTitle": "COM2602",
+    "creator": {
+      "name": "3121534312",
+      "channelUrl": "https://www.youtube.com/channel/UCZuo5SNTcSRxTg_1xnqkUKQ"
+    },
+    "officialVideoUrl": "https://www.youtube.com/watch?v=4HIj-9mU4Tw",
+    "youtubeVideoId": "4HIj-9mU4Tw",
+    "thumbnail": {
+      "mediaId": "city",
+      "attribution": "3121534312; selected investigator-derived frame"
+    },
+    "publishedAt": "2026-02-27",
+    "durationSeconds": 242,
+    "description": {
+      "kind": "official",
+      "text": "43535123445216535202346154315031235155231261341632303123553",
+      "source": "evidence/decoded/companion_2602.info.json"
+    },
+    "collectionIds": [
+      "companion-files"
+    ],
+    "categories": [
+      "Companion",
+      "visual cipher",
+      "simulation",
+      "transmission"
+    ],
+    "season": null,
+    "chronology": {
+      "publicationOrder": 2,
+      "viewingOrder": 2,
+      "scope": "Seven reviewed works; archive viewing order, not a proven narrative"
+    },
+    "investigationStatus": "partially_solved",
+    "articlePath": "/works/com2602",
+    "sources": [
+      {
+        "id": "metadata",
+        "path": "evidence/decoded/companion_2602.info.json",
+        "kind": "official",
+        "sha256": "d88debc1096faad18f8549686aba1b6b8ba185166e3b212ddc7563aa3642d28c"
+      },
+      {
+        "id": "source-register",
+        "path": "reports/companion-investigation.md",
+        "kind": "investigator-verified"
+      },
+      {
+        "id": "archive-editorial",
+        "path": "docs/ARCHIVE_CONTENT_SPEC.md",
+        "kind": "interpretation"
+      },
+      {
+        "id": "selected-media",
+        "path": "src/data/evidence-manifest.json",
+        "kind": "investigator-verified"
+      }
+    ],
+    "fieldSources": {
+      "originalTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "decodedTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "creator": [
+        "metadata",
+        "source-register"
+      ],
+      "officialVideoUrl": [
+        "metadata",
+        "source-register"
+      ],
+      "youtubeVideoId": [
+        "metadata",
+        "source-register"
+      ],
+      "publishedAt": [
+        "metadata",
+        "source-register"
+      ],
+      "durationSeconds": [
+        "metadata",
+        "source-register"
+      ],
+      "description": [
+        "metadata",
+        "source-register"
+      ],
+      "chronology": [
+        "metadata",
+        "source-register"
+      ],
+      "displayTitle": [
+        "archive-editorial"
+      ],
+      "collectionIds": [
+        "archive-editorial"
+      ],
+      "categories": [
+        "archive-editorial"
+      ],
+      "season": [
+        "archive-editorial"
+      ],
+      "investigationStatus": [
+        "archive-editorial"
+      ],
+      "articlePath": [
+        "archive-editorial"
+      ],
+      "lastReviewedAt": [
+        "archive-editorial"
+      ],
+      "lastUpdatedAt": [
+        "archive-editorial"
+      ],
+      "resolutionCriteria": [
+        "archive-editorial"
+      ],
+      "thumbnail": [
+        "selected-media"
+      ],
+      "translatedTitle": [
+        "archive-editorial"
+      ]
+    },
+    "lastReviewedAt": "2026-10-17",
+    "lastUpdatedAt": "2026-10-19",
+    "relatedWorks": [],
+    "resolutionCriteria": null
+  },
+  {
+    "id": "com2603",
+    "slug": "com2603",
+    "originalTitle": "435354858348183",
+    "decodedTitle": null,
+    "translatedTitle": null,
+    "displayTitle": "COM2603",
+    "creator": {
+      "name": "3121534312",
+      "channelUrl": "https://www.youtube.com/channel/UCZuo5SNTcSRxTg_1xnqkUKQ"
+    },
+    "officialVideoUrl": "https://www.youtube.com/watch?v=Qa5pby9LZhM",
+    "youtubeVideoId": "Qa5pby9LZhM",
+    "thumbnail": {
+      "mediaId": "code-03",
+      "attribution": "3121534312; selected investigator-derived frame"
+    },
+    "publishedAt": "2026-03-29",
+    "durationSeconds": 497,
+    "description": {
+      "kind": "official",
+      "text": "435351234452165352023461543150312351552312613416323031213561515",
+      "source": "sources/435354858348183 [Qa5pby9LZhM].info.json"
+    },
+    "collectionIds": [
+      "companion-files"
+    ],
+    "categories": [
+      "Companion",
+      "visual cipher",
+      "transmission"
+    ],
+    "season": null,
+    "chronology": {
+      "publicationOrder": 3,
+      "viewingOrder": 3,
+      "scope": "Seven reviewed works; archive viewing order, not a proven narrative"
+    },
+    "investigationStatus": "partially_solved",
+    "articlePath": "/works/com2603",
+    "sources": [
+      {
+        "id": "metadata",
+        "path": "sources/435354858348183 [Qa5pby9LZhM].info.json",
+        "kind": "official",
+        "sha256": "d94fe8d0d04c9975dcb86bbe325657bd391bce17af2079efd7efd16ee29fb71a"
+      },
+      {
+        "id": "source-register",
+        "path": "reports/companion-investigation.md",
+        "kind": "investigator-verified"
+      },
+      {
+        "id": "archive-editorial",
+        "path": "docs/ARCHIVE_CONTENT_SPEC.md",
+        "kind": "interpretation"
+      },
+      {
+        "id": "selected-media",
+        "path": "src/data/evidence-manifest.json",
+        "kind": "investigator-verified"
+      }
+    ],
+    "fieldSources": {
+      "originalTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "decodedTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "creator": [
+        "metadata",
+        "source-register"
+      ],
+      "officialVideoUrl": [
+        "metadata",
+        "source-register"
+      ],
+      "youtubeVideoId": [
+        "metadata",
+        "source-register"
+      ],
+      "publishedAt": [
+        "metadata",
+        "source-register"
+      ],
+      "durationSeconds": [
+        "metadata",
+        "source-register"
+      ],
+      "description": [
+        "metadata",
+        "source-register"
+      ],
+      "chronology": [
+        "metadata",
+        "source-register"
+      ],
+      "displayTitle": [
+        "archive-editorial"
+      ],
+      "collectionIds": [
+        "archive-editorial"
+      ],
+      "categories": [
+        "archive-editorial"
+      ],
+      "season": [
+        "archive-editorial"
+      ],
+      "investigationStatus": [
+        "archive-editorial"
+      ],
+      "articlePath": [
+        "archive-editorial"
+      ],
+      "lastReviewedAt": [
+        "archive-editorial"
+      ],
+      "lastUpdatedAt": [
+        "archive-editorial"
+      ],
+      "resolutionCriteria": [
+        "archive-editorial"
+      ],
+      "thumbnail": [
+        "selected-media"
+      ],
+      "translatedTitle": [
+        "archive-editorial"
+      ]
+    },
+    "lastReviewedAt": "2026-10-17",
+    "lastUpdatedAt": "2026-10-19",
+    "relatedWorks": [
+      {
+        "id": "abyss-threshold-observer",
+        "kind": "creator-explicit",
+        "confidence": "CONFIRMED",
+        "citation": "reports/post-com2603-sources.md",
+        "note": "ABYSS’s official description names COMPANION PIECE 2603; this does not establish one continuous story."
+      }
+    ],
+    "resolutionCriteria": null
+  },
+  {
+    "id": "abyss-threshold-observer",
+    "slug": "abyss-threshold-observer",
+    "originalTitle": "44126134340312135615341352321312105342341526324526",
+    "decodedTitle": "ABYSS THRESHOLD OBSERVER",
+    "translatedTitle": null,
+    "displayTitle": "ABYSS THRESHOLD OBSERVER",
+    "creator": {
+      "name": "3121534312",
+      "channelUrl": "https://www.youtube.com/channel/UCZuo5SNTcSRxTg_1xnqkUKQ"
+    },
+    "officialVideoUrl": "https://www.youtube.com/watch?v=jQfXMOSdWEM",
+    "youtubeVideoId": "jQfXMOSdWEM",
+    "thumbnail": {
+      "mediaId": "abyss-woman",
+      "attribution": "3121534312; selected investigator-derived frame"
+    },
+    "publishedAt": "2026-04-24",
+    "durationSeconds": 255,
+    "description": {
+      "kind": "official",
+      "text": "4353512344521653520234615431501858348183",
+      "source": "sources/post-com2603/jQfXMOSdWEM/44126134340312135615341352321312105342341526324526 [jQfXMOSdWEM].info.json"
+    },
+    "collectionIds": [],
+    "categories": [
+      "audio puzzle"
+    ],
+    "season": null,
+    "chronology": {
+      "publicationOrder": 4,
+      "viewingOrder": 4,
+      "scope": "Seven reviewed works; archive viewing order, not a proven narrative"
+    },
+    "investigationStatus": "partially_solved",
+    "articlePath": "/works/abyss-threshold-observer",
+    "sources": [
+      {
+        "id": "metadata",
+        "path": "sources/post-com2603/jQfXMOSdWEM/44126134340312135615341352321312105342341526324526 [jQfXMOSdWEM].info.json",
+        "kind": "official",
+        "sha256": "34eebcda67d413b5dfa0d2df375f2dfecbe2313c4501d68a2bd6c12a06fd1a3e"
+      },
+      {
+        "id": "source-register",
+        "path": "reports/post-com2603-sources.md",
+        "kind": "investigator-verified"
+      },
+      {
+        "id": "archive-editorial",
+        "path": "docs/ARCHIVE_CONTENT_SPEC.md",
+        "kind": "interpretation"
+      },
+      {
+        "id": "selected-media",
+        "path": "src/data/evidence-manifest.json",
+        "kind": "investigator-verified"
+      }
+    ],
+    "fieldSources": {
+      "originalTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "decodedTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "creator": [
+        "metadata",
+        "source-register"
+      ],
+      "officialVideoUrl": [
+        "metadata",
+        "source-register"
+      ],
+      "youtubeVideoId": [
+        "metadata",
+        "source-register"
+      ],
+      "publishedAt": [
+        "metadata",
+        "source-register"
+      ],
+      "durationSeconds": [
+        "metadata",
+        "source-register"
+      ],
+      "description": [
+        "metadata",
+        "source-register"
+      ],
+      "chronology": [
+        "metadata",
+        "source-register"
+      ],
+      "displayTitle": [
+        "archive-editorial"
+      ],
+      "collectionIds": [
+        "archive-editorial"
+      ],
+      "categories": [
+        "archive-editorial"
+      ],
+      "season": [
+        "archive-editorial"
+      ],
+      "investigationStatus": [
+        "archive-editorial"
+      ],
+      "articlePath": [
+        "archive-editorial"
+      ],
+      "lastReviewedAt": [
+        "archive-editorial"
+      ],
+      "lastUpdatedAt": [
+        "archive-editorial"
+      ],
+      "resolutionCriteria": [
+        "archive-editorial"
+      ],
+      "thumbnail": [
+        "selected-media"
+      ],
+      "translatedTitle": [
+        "archive-editorial"
+      ]
+    },
+    "lastReviewedAt": "2026-10-17",
+    "lastUpdatedAt": "2026-10-19",
+    "relatedWorks": [
+      {
+        "id": "com2603",
+        "kind": "creator-explicit",
+        "confidence": "CONFIRMED",
+        "citation": "reports/post-com2603-sources.md",
+        "note": "ABYSS’s official description names COMPANION PIECE 2603; this does not establish one continuous story."
+      }
+    ],
+    "resolutionCriteria": null
+  },
+  {
+    "id": "beneath",
+    "slug": "beneath",
+    "originalTitle": "4215521541312132",
+    "decodedTitle": "BENEATH",
+    "translatedTitle": null,
+    "displayTitle": "BENEATH",
+    "creator": {
+      "name": "3121534312",
+      "channelUrl": "https://www.youtube.com/channel/UCZuo5SNTcSRxTg_1xnqkUKQ"
+    },
+    "officialVideoUrl": "https://www.youtube.com/watch?v=PpSA-AGIqCc",
+    "youtubeVideoId": "PpSA-AGIqCc",
+    "thumbnail": {
+      "mediaId": "beneath-eye",
+      "attribution": "3121534312; selected investigator-derived frame"
+    },
+    "publishedAt": "2026-06-06",
+    "durationSeconds": 538,
+    "description": {
+      "kind": "official",
+      "text": "135 232 616 652 352 023 153 165 231 201 344 515 440",
+      "source": "sources/post-com2603/PpSA-AGIqCc/4215521541312132 [PpSA-AGIqCc].info.json"
+    },
+    "collectionIds": [],
+    "categories": [
+      "audio puzzle"
+    ],
+    "season": null,
+    "chronology": {
+      "publicationOrder": 5,
+      "viewingOrder": 5,
+      "scope": "Seven reviewed works; archive viewing order, not a proven narrative"
+    },
+    "investigationStatus": "partially_solved",
+    "articlePath": "/works/beneath",
+    "sources": [
+      {
+        "id": "metadata",
+        "path": "sources/post-com2603/PpSA-AGIqCc/4215521541312132 [PpSA-AGIqCc].info.json",
+        "kind": "official",
+        "sha256": "5dfb79ae6f332d66542c80a07f84db9dadeeeed7d0de2bdf41a9baaa275c7188"
+      },
+      {
+        "id": "source-register",
+        "path": "reports/post-com2603-sources.md",
+        "kind": "investigator-verified"
+      },
+      {
+        "id": "archive-editorial",
+        "path": "docs/ARCHIVE_CONTENT_SPEC.md",
+        "kind": "interpretation"
+      },
+      {
+        "id": "selected-media",
+        "path": "src/data/evidence-manifest.json",
+        "kind": "investigator-verified"
+      }
+    ],
+    "fieldSources": {
+      "originalTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "decodedTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "creator": [
+        "metadata",
+        "source-register"
+      ],
+      "officialVideoUrl": [
+        "metadata",
+        "source-register"
+      ],
+      "youtubeVideoId": [
+        "metadata",
+        "source-register"
+      ],
+      "publishedAt": [
+        "metadata",
+        "source-register"
+      ],
+      "durationSeconds": [
+        "metadata",
+        "source-register"
+      ],
+      "description": [
+        "metadata",
+        "source-register"
+      ],
+      "chronology": [
+        "metadata",
+        "source-register"
+      ],
+      "displayTitle": [
+        "archive-editorial"
+      ],
+      "collectionIds": [
+        "archive-editorial"
+      ],
+      "categories": [
+        "archive-editorial"
+      ],
+      "season": [
+        "archive-editorial"
+      ],
+      "investigationStatus": [
+        "archive-editorial"
+      ],
+      "articlePath": [
+        "archive-editorial"
+      ],
+      "lastReviewedAt": [
+        "archive-editorial"
+      ],
+      "lastUpdatedAt": [
+        "archive-editorial"
+      ],
+      "resolutionCriteria": [
+        "archive-editorial"
+      ],
+      "thumbnail": [
+        "selected-media"
+      ],
+      "translatedTitle": [
+        "archive-editorial"
+      ]
+    },
+    "lastReviewedAt": "2026-10-17",
+    "lastUpdatedAt": "2026-10-19",
+    "relatedWorks": [],
+    "resolutionCriteria": null
+  },
+  {
+    "id": "above",
+    "slug": "above",
+    "originalTitle": "441526245",
+    "decodedTitle": "ABOVE",
+    "translatedTitle": null,
+    "displayTitle": "ABOVE",
+    "creator": {
+      "name": "3121534312",
+      "channelUrl": "https://www.youtube.com/channel/UCZuo5SNTcSRxTg_1xnqkUKQ"
+    },
+    "officialVideoUrl": "https://www.youtube.com/watch?v=gJTeoniCg4w",
+    "youtubeVideoId": "gJTeoniCg4w",
+    "thumbnail": {
+      "mediaId": "above",
+      "attribution": "3121534312; selected investigator-derived frame"
+    },
+    "publishedAt": "2026-06-25",
+    "durationSeconds": 143,
+    "description": {
+      "kind": "official",
+      "text": "",
+      "source": "sources/post-com2603/gJTeoniCg4w/441526245 [gJTeoniCg4w].info.json"
+    },
+    "collectionIds": [],
+    "categories": [
+      "audio puzzle"
+    ],
+    "season": null,
+    "chronology": {
+      "publicationOrder": 6,
+      "viewingOrder": 6,
+      "scope": "Seven reviewed works; archive viewing order, not a proven narrative"
+    },
+    "investigationStatus": "partially_solved",
+    "articlePath": "/works/above",
+    "sources": [
+      {
+        "id": "metadata",
+        "path": "sources/post-com2603/gJTeoniCg4w/441526245 [gJTeoniCg4w].info.json",
+        "kind": "official",
+        "sha256": "28a146165f1c054321701613fb8927070f369170402df444b66096207caeed11"
+      },
+      {
+        "id": "source-register",
+        "path": "reports/post-com2603-sources.md",
+        "kind": "investigator-verified"
+      },
+      {
+        "id": "archive-editorial",
+        "path": "docs/ARCHIVE_CONTENT_SPEC.md",
+        "kind": "interpretation"
+      },
+      {
+        "id": "selected-media",
+        "path": "src/data/evidence-manifest.json",
+        "kind": "investigator-verified"
+      }
+    ],
+    "fieldSources": {
+      "originalTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "decodedTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "creator": [
+        "metadata",
+        "source-register"
+      ],
+      "officialVideoUrl": [
+        "metadata",
+        "source-register"
+      ],
+      "youtubeVideoId": [
+        "metadata",
+        "source-register"
+      ],
+      "publishedAt": [
+        "metadata",
+        "source-register"
+      ],
+      "durationSeconds": [
+        "metadata",
+        "source-register"
+      ],
+      "description": [
+        "metadata",
+        "source-register"
+      ],
+      "chronology": [
+        "metadata",
+        "source-register"
+      ],
+      "displayTitle": [
+        "archive-editorial"
+      ],
+      "collectionIds": [
+        "archive-editorial"
+      ],
+      "categories": [
+        "archive-editorial"
+      ],
+      "season": [
+        "archive-editorial"
+      ],
+      "investigationStatus": [
+        "archive-editorial"
+      ],
+      "articlePath": [
+        "archive-editorial"
+      ],
+      "lastReviewedAt": [
+        "archive-editorial"
+      ],
+      "lastUpdatedAt": [
+        "archive-editorial"
+      ],
+      "resolutionCriteria": [
+        "archive-editorial"
+      ],
+      "thumbnail": [
+        "selected-media"
+      ],
+      "translatedTitle": [
+        "archive-editorial"
+      ]
+    },
+    "lastReviewedAt": "2026-10-17",
+    "lastUpdatedAt": "2026-10-19",
+    "relatedWorks": [],
+    "resolutionCriteria": null
+  },
+  {
+    "id": "swim",
+    "slug": "swim",
+    "originalTitle": "34351651",
+    "decodedTitle": "SWIM",
+    "translatedTitle": null,
+    "displayTitle": "SWIM",
+    "creator": {
+      "name": "3121534312",
+      "channelUrl": "https://www.youtube.com/channel/UCZuo5SNTcSRxTg_1xnqkUKQ"
+    },
+    "officialVideoUrl": "https://www.youtube.com/watch?v=Bs8mrgXF6R0",
+    "youtubeVideoId": "Bs8mrgXF6R0",
+    "thumbnail": {
+      "mediaId": "swim",
+      "attribution": "3121534312; selected investigator-derived frame"
+    },
+    "publishedAt": "2026-10-12",
+    "durationSeconds": 210,
+    "description": {
+      "kind": "official",
+      "text": "3215316121",
+      "source": "sources/post-com2603/Bs8mrgXF6R0/34351651 [Bs8mrgXF6R0].info.json"
+    },
+    "collectionIds": [],
+    "categories": [
+      "audio puzzle"
+    ],
+    "season": null,
+    "chronology": {
+      "publicationOrder": 7,
+      "viewingOrder": 7,
+      "scope": "Seven reviewed works; archive viewing order, not a proven narrative"
+    },
+    "investigationStatus": "partially_solved",
+    "articlePath": "/works/swim",
+    "sources": [
+      {
+        "id": "metadata",
+        "path": "sources/post-com2603/Bs8mrgXF6R0/34351651 [Bs8mrgXF6R0].info.json",
+        "kind": "official",
+        "sha256": "d4cf13fbca4a5ac9e5dd06ca347993aecd31d7aa96ed7f2113a4e0042bbbd5cc"
+      },
+      {
+        "id": "source-register",
+        "path": "reports/post-com2603-sources.md",
+        "kind": "investigator-verified"
+      },
+      {
+        "id": "archive-editorial",
+        "path": "docs/ARCHIVE_CONTENT_SPEC.md",
+        "kind": "interpretation"
+      },
+      {
+        "id": "selected-media",
+        "path": "src/data/evidence-manifest.json",
+        "kind": "investigator-verified"
+      }
+    ],
+    "fieldSources": {
+      "originalTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "decodedTitle": [
+        "metadata",
+        "source-register"
+      ],
+      "creator": [
+        "metadata",
+        "source-register"
+      ],
+      "officialVideoUrl": [
+        "metadata",
+        "source-register"
+      ],
+      "youtubeVideoId": [
+        "metadata",
+        "source-register"
+      ],
+      "publishedAt": [
+        "metadata",
+        "source-register"
+      ],
+      "durationSeconds": [
+        "metadata",
+        "source-register"
+      ],
+      "description": [
+        "metadata",
+        "source-register"
+      ],
+      "chronology": [
+        "metadata",
+        "source-register"
+      ],
+      "displayTitle": [
+        "archive-editorial"
+      ],
+      "collectionIds": [
+        "archive-editorial"
+      ],
+      "categories": [
+        "archive-editorial"
+      ],
+      "season": [
+        "archive-editorial"
+      ],
+      "investigationStatus": [
+        "archive-editorial"
+      ],
+      "articlePath": [
+        "archive-editorial"
+      ],
+      "lastReviewedAt": [
+        "archive-editorial"
+      ],
+      "lastUpdatedAt": [
+        "archive-editorial"
+      ],
+      "resolutionCriteria": [
+        "archive-editorial"
+      ],
+      "thumbnail": [
+        "selected-media"
+      ],
+      "translatedTitle": [
+        "archive-editorial"
+      ]
+    },
+    "lastReviewedAt": "2026-10-17",
+    "lastUpdatedAt": "2026-10-19",
+    "relatedWorks": [],
+    "resolutionCriteria": null
+  }
+]
